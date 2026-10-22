@@ -1,0 +1,46 @@
+{
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:root": {
+    "criteria": {
+      "tick": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:internal/starting_book": {
+    "criteria": {
+      "tick": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "dustydecorations:welcome_to_dusty_decor": {
+    "criteria": {
+      "welcome_to_dusty_decor_0": "2026-10-22 06:21:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2026-10-22 06:21:39 +0000",
+      "minecraft:plains": "2026-10-22 06:22:18 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

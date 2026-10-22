@@ -1,0 +1,443 @@
+[22Oct2026 22:05:25.339] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Oct2026 22:05:25.349] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[22Oct2026 22:05:26.272] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Oct2026 22:05:26.359] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Oct2026 22:05:26.918] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Oct2026 22:05:26.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Oct2026 22:05:26.923] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Oct2026 22:05:26.924] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Oct2026 22:05:27.192] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[22Oct2026 22:05:27.196] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[22Oct2026 22:05:30.166] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Oct2026 22:05:30.336] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Oct2026 22:05:30.431] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[22Oct2026 22:05:30.456] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 22:05:30.565] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 98 options available, 0 override(s) found
+[22Oct2026 22:05:30.566] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[22Oct2026 22:05:30.584] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[22Oct2026 22:05:30.785] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[22Oct2026 22:05:31.699] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[22Oct2026 22:05:32.634] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22Oct2026 22:05:33.216] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.64 s after launch)
+[22Oct2026 22:05:33.378] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[22Oct2026 22:05:33.379] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[22Oct2026 22:05:33.538] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22Oct2026 22:05:33.539] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22Oct2026 22:05:33.539] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[22Oct2026 22:05:35.171] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1951 milliseconds
+[22Oct2026 22:05:36.251] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$ban000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[22Oct2026 22:05:38.001] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[22Oct2026 22:05:38.002] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[22Oct2026 22:05:38.679] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[22Oct2026 22:05:38.727] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Oct2026 22:05:38.727] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Oct2026 22:05:39.588] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[22Oct2026 22:05:39.647] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[22Oct2026 22:05:43.259] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
+[22Oct2026 22:05:43.413] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[22Oct2026 22:05:43.413] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[22Oct2026 22:05:45.352] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[22Oct2026 22:05:45.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[22Oct2026 22:05:45.511] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[22Oct2026 22:05:45.594] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[22Oct2026 22:05:45.622] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[22Oct2026 22:05:45.625] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[22Oct2026 22:05:45.625] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[22Oct2026 22:05:45.734] [main/INFO] [journeymap/]: Initializing Packet Registries
+[22Oct2026 22:05:45.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[22Oct2026 22:05:45.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[22Oct2026 22:05:45.853] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[22Oct2026 22:05:45.854] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[22Oct2026 22:05:45.855] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[22Oct2026 22:05:45.855] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[22Oct2026 22:05:45.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: AHEAD Current: 5.10.1 Target: null
+[22Oct2026 22:05:45.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [christmasfestivity] Starting version check at https://raw.githubusercontent.com/TheMillman/ChristmasFestivity/main/update.json
+[22Oct2026 22:05:45.938] [main/INFO] [Moonlight/]: Initialized color sets in 50ms
+[22Oct2026 22:05:45.981] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [christmasfestivity] Found status: BETA Current: 1.20.1-1.6.3-forge Target: null
+[22Oct2026 22:05:45.981] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[22Oct2026 22:05:45.984] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[22Oct2026 22:05:46.028] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.46 Target: null
+[22Oct2026 22:05:46.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Oct2026 22:05:46.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.28
+[22Oct2026 22:05:46.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Starting version check at https://raw.githubusercontent.com/Lothrazar/SimpleTomb/trunk/1.20/update.json
+[22Oct2026 22:05:46.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Found status: BETA Current: 1.20.1-1.3.0 Target: 1.3.0
+[22Oct2026 22:05:46.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[22Oct2026 22:05:46.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.5 Target: 1.20.1-2.6.25
+[22Oct2026 22:05:46.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[22Oct2026 22:05:46.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.19 Target: 1.20-2.16.37-forge
+[22Oct2026 22:05:46.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[22Oct2026 22:05:46.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.10.1 Target: 1.10.2.1
+[22Oct2026 22:05:46.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[22Oct2026 22:05:46.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[22Oct2026 22:05:46.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Starting version check at https://api.modrinth.com/updates/59ypHk8x/forge_updates.json
+[22Oct2026 22:05:47.050] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Oct2026 22:05:47.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_clifftree] Found status: OUTDATED Current: 1.7.2 Target: 1.7.2+mod
+[22Oct2026 22:05:47.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[22Oct2026 22:05:47.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.4.9 Target: null
+[22Oct2026 22:05:47.143] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+snowyspirit (version 1.20-3.0.10 -> MISSING)
+Things may not work well.
+[22Oct2026 22:05:47.273] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	snowyspirit:candy_cane_block: 2423
+	snowyspirit:ginger: 2431
+	snowyspirit:ginger_crate: 2468
+	snowyspirit:gingerbread: 2424
+	snowyspirit:gingerbread_door: 2428
+	snowyspirit:gingerbread_frosted: 2427
+	snowyspirit:gingerbread_slab: 2426
+	snowyspirit:gingerbread_stairs: 2425
+	snowyspirit:gingerbread_trapdoor: 2429
+	snowyspirit:glow_lights_black: 2464
+	snowyspirit:glow_lights_blue: 2460
+	snowyspirit:glow_lights_brown: 2461
+	snowyspirit:glow_lights_cyan: 2458
+	snowyspirit:glow_lights_gray: 2456
+	snowyspirit:glow_lights_green: 2462
+	snowyspirit:glow_lights_light_blue: 2452
+	snowyspirit:glow_lights_light_gray: 2457
+	snowyspirit:glow_lights_lime: 2454
+	snowyspirit:glow_lights_magenta: 2451
+	snowyspirit:glow_lights_orange: 2450
+	snowyspirit:glow_lights_pink: 2455
+	snowyspirit:glow_lights_prismatic: 2465
+	snowyspirit:glow_lights_purple: 2459
+	snowyspirit:glow_lights_red: 2463
+	snowyspirit:glow_lights_white: 2449
+	snowyspirit:glow_lights_yellow: 2453
+	snowyspirit:gumdrop_black: 2436
+	snowyspirit:gumdrop_blue: 2445
+	snowyspirit:gumdrop_brown: 2437
+	snowyspirit:gumdrop_cyan: 2443
+	snowyspirit:gumdrop_gray: 2435
+	snowyspirit:gumdrop_green: 2442
+	snowyspirit:gumdrop_light_blue: 2444
+	snowyspirit:gumdrop_light_gray: 2434
+	snowyspirit:gumdrop_lime: 2441
+	snowyspirit:gumdrop_magenta: 2447
+	snowyspirit:gumdrop_orange: 2439
+	snowyspirit:gumdrop_pink: 2448
+	snowyspirit:gumdrop_purple: 2446
+	snowyspirit:gumdrop_red: 2438
+	snowyspirit:gumdrop_white: 2433
+	snowyspirit:gumdrop_yellow: 2440
+	snowyspirit:potted_ginger: 2432
+	snowyspirit:snow_globe: 2467
+	snowyspirit:wild_ginger: 2430
+	snowyspirit:wreath: 2466
+
+[22Oct2026 22:05:47.277] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	snowyspirit:container_entity: 257
+	snowyspirit:gingerbread_giant: 255
+	snowyspirit:gingerbread_golem: 254
+	snowyspirit:sled: 256
+
+[22Oct2026 22:05:47.278] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	snowyspirit:candy_cane: 3302
+	snowyspirit:candy_cane_block: 3301
+	snowyspirit:eggnog: 3304
+	snowyspirit:ginger: 3314
+	snowyspirit:ginger_crate: 3350
+	snowyspirit:ginger_flower: 3313
+	snowyspirit:gingerbread: 3306
+	snowyspirit:gingerbread_cookie: 3303
+	snowyspirit:gingerbread_door: 3310
+	snowyspirit:gingerbread_frosted: 3309
+	snowyspirit:gingerbread_golem_spawn_egg: 3300
+	snowyspirit:gingerbread_slab: 3308
+	snowyspirit:gingerbread_stairs: 3307
+	snowyspirit:gingerbread_trapdoor: 3311
+	snowyspirit:glow_lights_black: 3334
+	snowyspirit:glow_lights_blue: 3343
+	snowyspirit:glow_lights_brown: 3335
+	snowyspirit:glow_lights_cyan: 3341
+	snowyspirit:glow_lights_gray: 3333
+	snowyspirit:glow_lights_green: 3340
+	snowyspirit:glow_lights_light_blue: 3342
+	snowyspirit:glow_lights_light_gray: 3332
+	snowyspirit:glow_lights_lime: 3339
+	snowyspirit:glow_lights_magenta: 3345
+	snowyspirit:glow_lights_orange: 3337
+	snowyspirit:glow_lights_pink: 3346
+	snowyspirit:glow_lights_prismatic: 3347
+	snowyspirit:glow_lights_purple: 3344
+	snowyspirit:glow_lights_red: 3336
+	snowyspirit:glow_lights_white: 3331
+	snowyspirit:glow_lights_yellow: 3338
+	snowyspirit:gumdrop_black: 3318
+	snowyspirit:gumdrop_blue: 3327
+	snowyspirit:gumdrop_brown: 3319
+	snowyspirit:gumdrop_cyan: 3325
+	snowyspirit:gumdrop_gray: 3317
+	snowyspirit:gumdrop_green: 3324
+	snowyspirit:gumdrop_light_blue: 3326
+	snowyspirit:gumdrop_light_gray: 3316
+	snowyspirit:gumdrop_lime: 3323
+	snowyspirit:gumdrop_magenta: 3329
+	snowyspirit:gumdrop_orange: 3321
+	snowyspirit:gumdrop_pink: 3330
+	snowyspirit:gumdrop_purple: 3328
+	snowyspirit:gumdrop_red: 3320
+	snowyspirit:gumdrop_white: 3315
+	snowyspirit:gumdrop_yellow: 3322
+	snowyspirit:music_disc_winter: 3305
+	snowyspirit:sled_acacia: 4662
+	snowyspirit:sled_bamboo: 4666
+	snowyspirit:sled_birch: 4660
+	snowyspirit:sled_cherry: 4663
+	snowyspirit:sled_dark_oak: 4664
+	snowyspirit:sled_jungle: 4661
+	snowyspirit:sled_mangrove: 4665
+	snowyspirit:sled_oak: 4658
+	snowyspirit:sled_spruce: 4659
+	snowyspirit:snow_globe: 3349
+	snowyspirit:wild_ginger: 3312
+	snowyspirit:wreath: 3348
+
+[22Oct2026 22:05:47.283] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:memory_module_type
+	snowyspirit:placed_present: 97
+	snowyspirit:wreath_pos: 98
+
+[22Oct2026 22:05:47.283] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	snowyspirit:block.gingerbread.break: 1752
+	snowyspirit:block.gingerbread.fall: 1755
+	snowyspirit:block.gingerbread.hit: 1754
+	snowyspirit:block.gingerbread.place: 1753
+	snowyspirit:block.gingerbread.step: 1756
+	snowyspirit:entity.sled: 1750
+	snowyspirit:entity.sled_snow: 1751
+	snowyspirit:music.winter: 1749
+
+[22Oct2026 22:05:47.285] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 120 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Oct2026 22:05:47.285] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    snowyspirit:block.gingerbread.break
+    snowyspirit:block.gingerbread.fall
+    snowyspirit:block.gingerbread.hit
+    snowyspirit:block.gingerbread.place
+    snowyspirit:block.gingerbread.step
+    snowyspirit:entity.sled
+    snowyspirit:entity.sled_snow
+    snowyspirit:music.winter
+
+Missing minecraft:item:
+    snowyspirit:candy_cane
+    snowyspirit:candy_cane_block
+    snowyspirit:eggnog
+    snowyspirit:ginger
+    snowyspirit:ginger_crate
+    snowyspirit:ginger_flower
+    snowyspirit:gingerbread
+    snowyspirit:gingerbread_cookie
+    snowyspirit:gingerbread_door
+    snowyspirit:gingerbread_frosted
+    snowyspirit:gingerbread_golem_spawn_egg
+    snowyspirit:gingerbread_slab
+    snowyspirit:gingerbread_stairs
+    snowyspirit:gingerbread_trapdoor
+    snowyspirit:glow_lights_black
+    snowyspirit:glow_lights_blue
+    snowyspirit:glow_lights_brown
+    snowyspirit:glow_lights_cyan
+    snowyspirit:glow_lights_gray
+    snowyspirit:glow_lights_green
+    snowyspirit:glow_lights_light_blue
+    snowyspirit:glow_lights_light_gray
+    snowyspirit:glow_lights_lime
+    snowyspirit:glow_lights_magenta
+    snowyspirit:glow_lights_orange
+    snowyspirit:glow_lights_pink
+    snowyspirit:glow_lights_prismatic
+    snowyspirit:glow_lights_purple
+    snowyspirit:glow_lights_red
+    snowyspirit:glow_lights_white
+    snowyspirit:glow_lights_yellow
+    snowyspirit:gumdrop_black
+    snowyspirit:gumdrop_blue
+    snowyspirit:gumdrop_brown
+    snowyspirit:gumdrop_cyan
+    snowyspirit:gumdrop_gray
+    snowyspirit:gumdrop_green
+    snowyspirit:gumdrop_light_blue
+    snowyspirit:gumdrop_light_gray
+    snowyspirit:gumdrop_lime
+    snowyspirit:gumdrop_magenta
+    snowyspirit:gumdrop_orange
+    snowyspirit:gumdrop_pink
+    snowyspirit:gumdrop_purple
+    snowyspirit:gumdrop_red
+    snowyspirit:gumdrop_white
+    snowyspirit:gumdrop_yellow
+    snowyspirit:music_disc_winter
+    snowyspirit:sled_acacia
+    snowyspirit:sled_bamboo
+    snowyspirit:sled_birch
+    snowyspirit:sled_cherry
+    snowyspirit:sled_dark_oak
+    snowyspirit:sled_jungle
+    snowyspirit:sled_mangrove
+    snowyspirit:sled_oak
+    snowyspirit:sled_spruce
+    snowyspirit:snow_globe
+    snowyspirit:wild_ginger
+    snowyspirit:wreath
+
+Missing minecraft:block:
+    snowyspirit:candy_cane_block
+    snowyspirit:ginger
+    snowyspirit:ginger_crate
+    snowyspirit:gingerbread
+    snowyspirit:gingerbread_door
+    snowyspirit:gingerbread_frosted
+    snowyspirit:gingerbread_slab
+    snowyspirit:gingerbread_stairs
+    snowyspirit:gingerbread_trapdoor
+    snowyspirit:glow_lights_black
+    snowyspirit:glow_lights_blue
+    snowyspirit:glow_lights_brown
+    snowyspirit:glow_lights_cyan
+    snowyspirit:glow_lights_gray
+    snowyspirit:glow_lights_green
+    snowyspirit:glow_lights_light_blue
+    snowyspirit:glow_lights_light_gray
+    snowyspirit:glow_lights_lime
+    snowyspirit:glow_lights_magenta
+    snowyspirit:glow_lights_orange
+    snowyspirit:glow_lights_pink
+    snowyspirit:glow_lights_prismatic
+    snowyspirit:glow_lights_purple
+    snowyspirit:glow_lights_red
+    snowyspirit:glow_lights_white
+    snowyspirit:glow_lights_yellow
+    snowyspirit:gumdrop_black
+    snowyspirit:gumdrop_blue
+    snowyspirit:gumdrop_brown
+    snowyspirit:gumdrop_cyan
+    snowyspirit:gumdrop_gray
+    snowyspirit:gumdrop_green
+    snowyspirit:gumdrop_light_blue
+    snowyspirit:gumdrop_light_gray
+    snowyspirit:gumdrop_lime
+    snowyspirit:gumdrop_magenta
+    snowyspirit:gumdrop_orange
+    snowyspirit:gumdrop_pink
+    snowyspirit:gumdrop_purple
+    snowyspirit:gumdrop_red
+    snowyspirit:gumdrop_white
+    snowyspirit:gumdrop_yellow
+    snowyspirit:potted_ginger
+    snowyspirit:snow_globe
+    snowyspirit:wild_ginger
+    snowyspirit:wreath
+
+Missing minecraft:memory_module_type:
+    snowyspirit:placed_present
+    snowyspirit:wreath_pos
+
+Missing minecraft:entity_type:
+    snowyspirit:container_entity
+    snowyspirit:gingerbread_giant
+    snowyspirit:gingerbread_golem
+    snowyspirit:sled
+
+
+[22Oct2026 22:05:47.289] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Oct2026 22:05:47.482] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2026 22:05:47.482] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[22Oct2026 22:05:47.544] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:snowyspirit
+[22Oct2026 22:05:47.544] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack Snowyspirit Generated Pack
+[22Oct2026 22:05:49.448] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[22Oct2026 22:05:50.212] [Worker-Main-3/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 12.49393 ms
+[22Oct2026 22:05:50.541] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[22Oct2026 22:05:50.674] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[22Oct2026 22:05:50.723] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[22Oct2026 22:05:50.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[22Oct2026 22:05:50.995] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3649 advancements
+[22Oct2026 22:05:51.027] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 55 materials in 6.321303 ms
+[22Oct2026 22:05:51.030] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 39 materials in 3.347406 ms
+[22Oct2026 22:05:51.045] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 14.220303 ms
+[22Oct2026 22:05:51.058] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 13.479478 ms
+[22Oct2026 22:05:51.063] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.308972 ms
+[22Oct2026 22:05:51.133] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 69.42798 ms
+[22Oct2026 22:05:51.137] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 4.484056 ms
+[22Oct2026 22:05:51.138] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.606511 ms
+[22Oct2026 22:05:51.142] [main/INFO] [tconstruct/]: Loaded 43 spilling fluids in 3.123247 ms
+[22Oct2026 22:05:51.255] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 13.365014 ms
+[22Oct2026 22:05:51.259] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.008478 ms
+[22Oct2026 22:05:51.322] [main/WARN] [ModernFix/]: Initial datapack load took 3.805 s
+[22Oct2026 22:05:51.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Oct2026 22:05:51.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Oct2026 22:05:51.538] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Oct2026 22:05:51.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2026 22:05:51.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Oct2026 22:05:51.782] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Oct2026 22:05:51.895] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Oct2026 22:05:52.024] [Server thread/INFO] [Framework/]: Loading server configs...
+[22Oct2026 22:05:52.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Oct2026 22:05:52.485] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[22Oct2026 22:05:52.485] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[22Oct2026 22:05:52.486] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:165745295 potentially creating overlapping structures detected. Structure sets: [minecraft:shipwrecks_stone_ocean, minecraft:shipwrecks]
+[22Oct2026 22:05:52.486] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:14357617 potentially creating overlapping structures detected. Structure sets: [minecraft:desert_pyramids, clifftree:camel]
+[22Oct2026 22:05:52.489] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[22Oct2026 22:05:52.489] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities]
+[22Oct2026 22:05:52.489] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[22Oct2026 22:05:52.490] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[22Oct2026 22:05:52.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2026 22:05:52.497] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[22Oct2026 22:05:54.535] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:54.535] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:54.536] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:54.536] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:54.536] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:54.993] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 22:05:55.692] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3201 ms
+[22Oct2026 22:05:55.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.801s)! For help, type "help"
+[22Oct2026 22:05:55.736] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Oct2026 22:05:55.793] [Server thread/WARN] [ModernFix/]: Dedicated server took 33.222 seconds to load
+[22Oct2026 22:05:55.794] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[22Oct2026 22:07:02.990] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Diego_Alt is e1638b6f-51c2-47b9-b08f-44c97e98b3b2
+[22Oct2026 22:07:04.952] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[22Oct2026 22:07:04.994] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Diego_Alt[/127.132.194.253:34589] logged in with entity id 211 at (69.28819973298843, 63.0, 21.488808701406363)
+[22Oct2026 22:07:05.082] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Diego_Alt
+[22Oct2026 22:07:05.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diego_Alt joined the game
+[22Oct2026 22:07:05.249] [Server thread/INFO] [com.skinnydevi.playtimelimiter.PlaytimeLimiter/]: Loading Data for "Diego_Alt"
+[22Oct2026 22:07:06.282] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Diego_Alt (20)
+[22Oct2026 22:07:06.284] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Diego_Alt
+[22Oct2026 22:08:00.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Diego_Alt lost connection: Disconnected
+[22Oct2026 22:08:00.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diego_Alt left the game
+[22Oct2026 22:08:00.902] [Server thread/INFO] [com.skinnydevi.playtimelimiter.PlaytimeLimiter/]: Saving Data for "Diego_Alt"
+[22Oct2026 22:08:00.904] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Diego_Alt
+[22Oct2026 22:14:54.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Oct2026 22:14:54.320] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	... 4 more
+[22Oct2026 22:14:54.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2026 22:14:54.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2026 22:14:54.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2026 22:14:54.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Oct2026 22:14:54.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Oct2026 22:14:54.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Oct2026 22:14:54.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Oct2026 22:14:54.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2026 22:14:54.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2026 22:14:54.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Oct2026 22:14:54.820] [Server thread/INFO] [Framework/]: Unloading server configs...
+[22Oct2026 22:14:54.821] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[22Oct2026 22:14:54.823] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[22Oct2026 22:14:54.824] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
